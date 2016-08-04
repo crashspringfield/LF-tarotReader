@@ -16,10 +16,39 @@
 
       body {
         background-color: #FF33CC;
+        color: #ffbfd3;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 1000px;
+        font-size: 1.5em;
+
       }
 
       .navbar-default {
+        margin-bottom: 20px;
         background-color: #FF33CC;
+        color: #ffbfd3;
+        border-color: #ffbfd3;
+        border-width: medium;
+        font-size: 1.5em;
+      }
+
+      .btn {
+        background-color: #a30dc9;
+        color: #ffbfd3;
+        border-color: #ffbfd3;
+      }
+
+      .btn:hover {
+        background-color: #FF33CC;
+        color: #ffbfd3;
+        border-color: #ffbfd3;
+      }
+
+      .btn:active {
+        background-color: #FF33CC;
+        color: #ffbfd3;
+        border-color: #ffbfd3;
       }
 
     </style>
@@ -30,8 +59,7 @@
 
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
-        Lisa Frank Marjor Arcana
-
+        <h3 align="center"><strong>Lisa Frank Marjor Arcana</strong></h3>
       </div>
     </nav>
 
@@ -41,20 +69,22 @@
       <row>
         <div class="col-xs-3"></div>
         <div class="col-xs-6">
-          <h4>In your future, I see...</h4>
+          <h4 align="center"><strong>In your future, I see...</strong></h4>
         </div>
         <div class="col-xs-3"></div>
 
       </row>
-
-      <row>
+      <br>
+      <row class="container">
         <div class="col-xs-3"></div>
+
         <div class="col-xs-6">
           <div ng-controller="mainCtrl">
 
             <img src="app/img/{{deal}}.jpg" class="img-responsive">
 <!-- /home/crash/js/node/tarotReader/LF/app/img/the_moon.jpg -->
-            <button ng-click="dealAgain()">Deal again!</button>
+            <br>
+            <button type="button" class="btn btn-info btn-block" ng-click="dealAgain()">Deal again!</button>
 
           </div>
         </div>
