@@ -10,10 +10,10 @@ cardDealer.controller('mainCtrl', function($scope) {
 
 
   $scope.deal = deck[Math.floor(Math.random() * 21)];
-  console.log('connected to js file');
+
   $scope.dealAgain = function() {
     $scope.deal = deck[Math.floor(Math.random() * 21)];
-    console.log('button clicked')
+
   };
 
 });
