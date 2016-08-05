@@ -18,9 +18,9 @@ body {
 }
 
 .btn {
-  background-color: #a30dc9;
-  color: #ffbfd3;
-  border-color: #ffbfd3;
+  background-color: #a30dc9 !important;
+  color: #ffbfd3 !important;
+  border-color: #ffbfd3 !important;
 }
 
 .btn:hover {
@@ -30,7 +30,7 @@ body {
 }
 
 .btn:active {
-  background-color: #FF33CC;
-  color: #ffbfd3;
-  border-color: #ffbfd3;
+  background-color: #FF33CC !important;
+  color: #ffbfd3 !important;
+  border-color: #ffbfd3 !important;
 }
