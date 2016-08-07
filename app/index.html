@@ -6,49 +6,36 @@
 
     <title> Lisa Frank Major Arcana </title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="app/style.css" type="text/css">
     
   </head>
-
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <row>
-        <div class="col-xs-3"></div>
-
-        <div class="col-xs-6">
-          <h3 align="center"><strong>Lisa Frank Marjor Arcana</strong></h3>
-        </div>
-
-        <div class="col-xs-3"></div>
-      </row>
-    </div>
-  </nav>
-
   <body>
-
-      <row class="container">
-        <div class="col-xs-3"></div>
-        <div class="col-xs-6">
-          <h4 align="center"><strong>In your future, I see...</strong></h4>
-        </div>
-        <div class="col-xs-3"></div>
-      </row>
-
-      <row class="container">
-        <div class="col-xs-3"></div>
-
-        <div class="col-xs-6">
-          <div ng-controller="mainCtrl">
-            <img src="app/img/{{deal}}.jpg" class="img-responsive">
-            <br>
-            <button type="button" class="btn btn-info btn-block" ng-click="dealAgain()">Deal again!</button>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <row>
+          <div class="col-xs-6 col-xs-push-3">
+            <h3 align="center"><strong>Lisa Frank Major Arcana</strong></h3>
           </div>
+        </row>
+      </div>
+    </nav>
+
+    <row class="container">
+      <div class="col-xs-6 col-xs-push-3">
+        <h4 align="center"><strong>In your future, I see...</strong></h4>
+      </div>
+    </row>
+
+    <row class="container">
+      <div class="col-xs-6 col-xs-push-3">
+        <div ng-controller="mainCtrl">
+          <img src="#" ng-src="app/img/{{card}}.jpg" class="img-responsive" />
+          <br />
+          <button type="button" class="btn btn-info btn-block" ng-click="deal()">Deal again!</button>
         </div>
-
-        <div class="col-xs-3"></div>
-      </row>
-
+      </div>
+    </row>
 
     <!-- link to angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>

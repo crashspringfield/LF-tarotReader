@@ -1,20 +1,16 @@
 body {
-  background-color: #FF33CC;
+  background-color: #ff33cc;
   color: #ffbfd3;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   min-height: 1000px;
   font-size: 1.5em;
-
 }
 
 .navbar-default {
   margin-bottom: 20px;
-  background-color: #FF33CC;
-  color: #ffbfd3;
+  background-color: #ff33cc;
   border-color: #ffbfd3;
   border-width: medium;
-  font-size: 1.5em;
 }
 
 .btn {
@@ -23,14 +19,6 @@ body {
   border-color: #ffbfd3 !important;
 }
 
-.btn:hover {
-  background-color: #FF33CC;
-  color: #ffbfd3;
-  border-color: #ffbfd3;
-}
-
 .btn:active {
-  background-color: #FF33CC !important;
-  color: #ffbfd3 !important;
-  border-color: #ffbfd3 !important;
+  background-color: #ff33cc !important;
 }

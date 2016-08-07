@@ -8,12 +8,8 @@ cardDealer.controller('mainCtrl', function($scope) {
               'the_lovers', 'the_magician', 'the_moon', 'the_star', 'the_sun',
               'the_tower', 'the_world', 'wheel_of_fortune'];
 
-
-  $scope.deal = deck[Math.floor(Math.random() * 21)];
-
-  $scope.dealAgain = function() {
-    $scope.deal = deck[Math.floor(Math.random() * 21)];
-
-  };
+  ($scope.deal = function() {
+    $scope.card = deck[Math.floor(Math.random() * deck.length)];
+  })();
 
 });
