@@ -1,0 +1,18 @@
+{
+  "name": "tarotreader",
+  "version": "1.0.0",
+  "description": "Tarot card reader",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crashspringfield",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "^1.15.2"
+  },
+  "repository":
+  { "type" : "git"
+  , "url" : "https://github.com/crashspringfield/LF-tarotReader.git"
+  }
