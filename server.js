@@ -7,7 +7,7 @@ app.use(bodyParser());
 app.use('/app', express.static(__dirname + '/app'));
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/app/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 
